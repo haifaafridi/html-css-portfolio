@@ -37,3 +37,29 @@ header img {
     height: 100px;
     background-color: #F8E2DF;
 }
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.navbar a {
+    color: black;
+    /* adjust based on background */
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Dancing Script";
+    font-weight: bold;
+    font-size: 20px;
+}
