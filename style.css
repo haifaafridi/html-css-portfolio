@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #FFF3F3;
+    background-color: #e6aaa9;
 }
 
 header {
@@ -35,14 +35,14 @@ header {
 
 header img {
     height: 100px;
-    background-color: #F8E2DF;
+
 }
 
 .navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: transparent;
+    background: linear-gradient(to bottom, #e2bab9, #dbadab, #e6aaa9);
     padding: 10px;
     gap: 10px;
     position: absolute;
@@ -53,8 +53,7 @@ header img {
 }
 
 .navbar a {
-    color: black;
-    /* adjust based on background */
+    color: #7A3A3A;
     text-decoration: none;
     margin-right: 10px;
     margin-top: 10px;
@@ -62,4 +61,12 @@ header img {
     font-family: "Dancing Script";
     font-weight: bold;
     font-size: 20px;
+}
+
+
+
+.navbar a:hover {
+    color: black;
+
+    border: 2px solid black;
 }
